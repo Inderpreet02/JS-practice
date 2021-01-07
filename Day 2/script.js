@@ -9,8 +9,8 @@ function setDate(){
     const hours = now.getHours();
     const secondsDegrees = ((seconds / 60) * 360) + 90;
     const minutesDegrees = ((minutes / 60) * 360) + 90;
-    const hoursDegrees = ((hours / 60) * 360) + 90;
-    console.log(seconds);
+    const hoursDegrees = ((hours / 12) * 360) + 90;
+    console.log(hours);
     secondHand.style.transform = `rotateZ(${secondsDegrees}deg)`;
     minuteHand.style.transform = `rotateZ(${minutesDegrees}deg)`;
     hourHand.style.transform = `rotateZ(${hoursDegrees}deg)`;
