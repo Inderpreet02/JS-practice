@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1{
+    padding: 0 1em;
+    color: white;
+}
+
+body{
+    background-color: #22254b;
+    font-family: "helvetica neun", sans-serif;
+    margin: 0;
+}
+
+.movie{
+    background-color: #343874;
+    border-radius: 3px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+    margin: 2em;
+    align-items: center;
+    width: 250px;
+}
+
+.movie img{
+    object-fit: cover;
+    width: 100%;
+}
+
+.movie-info{
+    color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    padding: 0.5rem 1rem 1rem;
+}
+
+.movie-info h3{
+    margin: 0;
+}
+
+.movie-info span{
+    background-color: #22254b;
+    border-radius: 3px;
+    padding: 0.25rem 0.5rem;
+}
